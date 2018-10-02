@@ -199,7 +199,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519459406}
   - component: {fileID: 519459408}
-  - component: {fileID: 519459407}
   m_Layer: 0
   m_Name: Diamond (1)
   m_TagString: Untagged
@@ -220,21 +219,6 @@ Transform:
   m_Father: {fileID: 1419116683}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519459407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 519459405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a7c154a924f18b4cb6da6dfa40d3317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  newColor: {r: 0, g: 0, b: 0, a: 0}
-  other: {fileID: 0}
-  rotationsSpeed: 0
 --- !u!212 &519459408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -369,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a7c154a924f18b4cb6da6dfa40d3317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  newColor: {r: 0, g: 0, b: 0, a: 0}
-  other: {fileID: 0}
-  rotationsSpeed: 0
+  rend: {fileID: 1419116682}
+  newColor: {r: 0.8584906, g: 0.79353505, b: 0.08503916, a: 1}
+  other: {fileID: 519420032}
+  rotationsSpeed: 111
